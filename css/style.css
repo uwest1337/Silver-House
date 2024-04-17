@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 1110px; */
+    /* margin: 0 auto; */
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.header__logo {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.header__list {
+    margin: 0 auto;
+    display: flex;
+    max-width: 811px;
+    width: 100%;
+    padding: 0px 10px 0px;
+    align-items: center;
+    gap: 30px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.header__link {
+    text-decoration: none;
+    list-style: none;
+    color: #8C8A8A;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+
+.header__banner-img {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.about .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.about__item-1 {
+    max-width: 730px;
+    width: 100%;
+    height: 500px;
+    background: var(--grey, #F0F0F0);
+    padding: 50px 95px 50px 40px;
+}
+
+.about__item-title {
+    color: #4581B7;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.about__desc-1 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 168.75%;
+    margin-top: 25px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13;
+    overflow: hidden;
+}
+
+.about__item-2 {
+    max-width: 350px;
+    width: 100%;
+    height: 500px;
+    background: var(--grey, #F0F0F0);
+    padding: 50px 25px 159px 40px;
+}
+
+.about__desc-2 {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-top: 25px;
+    height: 243px;
+}
+
+.about__desc-2 span {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.about {
+    margin: 30px 0;
+}
+
+.footer {   
+    height: 150px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+    background: var(--grey, #F0F0F0);
+}
+
+.footer__img {
+    max-width: 254px;
+    width: 100%;
+}
+
+.footer__item-title {
+    color: #808080;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19зч;
+}
+
+.footer__desc {
+    color: #808080;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 29px;
+    text-align: end;
+}

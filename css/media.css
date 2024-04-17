@@ -1,0 +1,128 @@
+@media(max-width: 1200px) {
+    /* .container {
+        max-width: 960px;
+    } */
+
+    .header__logo {
+        margin-top: 30px;
+    }
+
+    .header__list {
+        margin-top: 40px;
+    }
+}
+
+@media(max-width: 1127px) {
+    .about .container {
+        width: 100%;
+    }
+
+    .header__banner-img {
+        height: 100vh;
+
+    }
+}
+
+@media(max-width: 992px) {
+    /* .container {
+        max-width: 720px;
+    } */
+
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        row-gap: 15px;
+    }
+
+    .header__banner-img {
+        height: 90vh;
+    }
+}
+
+@media(max-width: 768px) {
+    /* .container {
+        max-width: 540px;
+    } */
+
+    .header__logo {
+        width: 100px;
+    }
+
+    .header__list {
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .header__banner-img {
+        height: 80vh;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about__item-1,
+    .about__item-2 {
+        max-width: 768px;
+        text-align: center;
+    }
+
+    .about__item-2 {
+        height: 350px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        row-gap: 30px;
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .footer__img {
+        max-width: 200px;
+    }
+
+    .footer__desc {
+        text-align: center;
+    }
+}
+
+@media(max-width: 576px) {
+    .container {
+        max-width: auto;
+    }
+
+    .header__logo {
+        max-width: 90px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .header__list {
+        margin-top: 17px;
+        row-gap: 10px;
+        margin-bottom: 13px;
+    }
+
+    .about__item-1 {
+        padding: 20px 30px 0px 30px;
+        text-align: center;
+        height: 450px;
+    }
+
+    .about__item-2 {
+        padding: 20px 30px 0px 30px;
+        height: 350px;
+        text-align: center;
+    }
+
+    .about__item-title {
+        font-size: 17px;
+    }
+
+    .about__desc-1 {
+        margin-top: 15px;
+    }
+}
